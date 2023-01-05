@@ -1,0 +1,21 @@
+INSERT INTO CITY_MASTER (cityId, cityName, stateId) VALUES (100, "HYD_BAD", 201);
+INSERT INTO CITY_MASTER (cityId, cityName, stateId) VALUES (101, "SEC_BAD", 201);
+INSERT INTO CITY_MASTER (cityId, cityName, stateId) VALUES (102, "WARNGAL", 201);
+INSERT INTO CITY_MASTER (cityId, cityName, stateId) VALUES (103, "VIZAG", 202);
+INSERT INTO CITY_MASTER (cityId, cityName, stateId) VALUES (104, "TIRUPATHI", 202);
+
+
+
+
+INSERT INTO COUNTRY_MASTER (countryId, countryName) VALUES (1001, "INDIA");
+INSERT INTO COUNTRY_MASTER (countryId, countryName) VALUES (1002, "USA");
+INSERT INTO COUNTRY_MASTER (countryId, countryName) VALUES (1003, "CANADA");
+
+
+INSERT INTO STATE_MASTER (stateId , stateName, countryId) VALUES (201, "TELANGANA", 1001);
+INSERT INTO STATE_MASTER (stateId , stateName, countryId) VALUES (202, "ANDHRAPRADESH", 1001);
+INSERT INTO STATE_MASTER (stateId , stateName, countryId) VALUES (203, "NEWYORK", 1002);
+INSERT INTO STATE_MASTER (stateId , stateName, countryId) VALUES (204, "MEXICO", 1002);
+INSERT INTO STATE_MASTER (stateId , stateName, countryId) VALUES (205, "COLUMBIA", 1003);
+
+
